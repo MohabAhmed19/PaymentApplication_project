@@ -1,0 +1,11 @@
+﻿  app.c
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\card.h(11,35): warning C4142: 'uint32_t': benign redefinition of type
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(24,28): message : see declaration of 'uint32_t'
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\standard_types.h(19,36): warning C4142: 'uint32_t': benign redefinition of type
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\card.h(11,27): message : see declaration of 'uint32_t'
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Card\card.h(11,35): warning C4142: 'uint32_t': benign redefinition of type
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\standard_types.h(19,28): message : see declaration of 'uint32_t'
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Card\card.h(14,30): error C2011: 'ST_cardData_t': 'struct' type redefinition
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\card.h(14,16): message : see declaration of 'ST_cardData_t'
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Card\card.h(20,28): error C2011: 'EN_cardError_t': 'enum' type redefinition
+E:\mohab\academy\sprints\projects\payment\paymentApplication\Terminal\card.h(20,14): message : see declaration of 'EN_cardError_t'
